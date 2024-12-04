@@ -1,0 +1,24 @@
+.header {
+    background-image: url('./images/image.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    height: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    width: 700px;
+    margin-left: 400px;
+  }
+  
+  .headerContent {
+    position: relative;
+    z-index: 1; 
+  }
+  
+  .header h1 {
+    font-size: 3rem; 
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); 
+  }
